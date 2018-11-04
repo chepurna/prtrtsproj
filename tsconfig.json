@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "outDir": "./dist/out-tsc",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "jasmine","jasminewd2"
+        ],
+    },
+    "angularCompileOPtions":{
+        "fullTemplateTypeCheck":true,
+        "preserveWhilespace":false
+    },
+    "include": [
+        "apps/**/*.ts"
+    ]
+}
